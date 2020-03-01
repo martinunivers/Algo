@@ -29,5 +29,4 @@ jobs:
         PYTHONPATH: D:\a\Algo\Algo
       run: |
         pip install pytest
-        python Test_Cases\Test_Algorithms\Test_Sorting\test_bubble.py
-        #pytest Test_Cases/
+        pytest
