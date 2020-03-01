@@ -29,5 +29,5 @@ jobs:
         PYTHONPATH: D:\a\Algo\Algo
       run: |
         pip install pytest
-        cd D:\a\Algo\Algo
         pytest Test_Cases/
+        echo testend
