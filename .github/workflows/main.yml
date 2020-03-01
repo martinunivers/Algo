@@ -28,6 +28,5 @@ jobs:
       env:
         PYTHONPATH: D:\a\Algo\Algo
       run: |
-        pip install pytest
-        pytest Test_Cases/
-        echo testend
+        #pip install pytest
+        #pytest Test_Cases/
