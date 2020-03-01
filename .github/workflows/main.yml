@@ -26,7 +26,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        setx PYTHONPATH D:\a\Algo\Algo
-        echo %PYTHONPATH%
+        set PYTHONPATH=D:\a\Algo\Algo
+        set PYTHONPATH
         pip install pytest
         pytest
