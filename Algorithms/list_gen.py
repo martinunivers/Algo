@@ -29,6 +29,7 @@ def unsorted_list(min: int, max: int, list_size: int)-> list:
         return unsort_list
     except ValueError:
         print("Incorrect range values, min must be less or equal to max parameter")
+        return unsort_list
 
 
 def sorted_list(min: int, step: int, list_size: int)-> list:
@@ -56,6 +57,7 @@ def sorted_list(min: int, step: int, list_size: int)-> list:
         return sorted_list
     except ValueError:
         print("Incorrect range values, min must be less or equal to max parameter")
+        return sorted_list
 
 
 def string_pattern(pool: tuple, pattern_size: int)-> str:
@@ -83,3 +85,4 @@ def string_pattern(pool: tuple, pattern_size: int)-> str:
         return pattern
     except IndexError:
         print("Item's pool to generate the pattern is empty")
+        return pattern
